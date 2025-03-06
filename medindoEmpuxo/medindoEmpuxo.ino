@@ -2,7 +2,38 @@
      AUTOR:   Professor Danilo
      LINK:    https://www.youtube.com/@professordanilo ; https://linktr.ee/professor_danilo
      SKETCH:  Medindo empuxo do motor da Mobfog
-     Detalhes: 
+     Detalhes: na coluna da esquerda, os pinos do módulo; na coluna da direita, os pinos do Arduino UNO
+              RELÉ
+              vcc - 5V
+              gnd - GND
+              in  - 7
+              COM - chave liga desliga
+              NO  - fio que vai para o skib
+
+              DISPLAY
+              scl - A5
+              sda - A4
+              vcc - 5V              
+              gnd - GND
+
+              BALANÇA
+              gnd - GND
+              dt  - 2
+              sck - 3
+              vcc - 5V
+
+              BUZZER
+              +   - 6
+              -   - GND
+
+              MÓDULO CARTÃO SD
+              gnd  - GND
+              miso - 12
+              sck  - 13
+              mosi - 11
+              cs   - 10
+              +5   - 5V
+    
      DATA:    06/03/2025
 */
 
